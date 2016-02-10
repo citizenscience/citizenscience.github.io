@@ -1,0 +1,17 @@
+<!-- Block -->
+<div id="" class="block bg-white border-b" data-edit="false">
+
+  <!-- Container -->
+  <div class="container pady-block-lg auto-invert">
+  
+    <div class="wpc-50 wpc-100-xs hcenter align-center">
+      <h5 class="fg-accent lts-sm case-u" contenteditable="false">our mission statement</h5>
+      <h2 class="fs-250-xs fg-text-d font-cond-b case-u lts-sm line-b align-center mgb-30" contenteditable="false">The difference<br/>between stupidity and<br/>genius is the limits.</h2>
+      <p class="fg-text lts-sm" contenteditable="false"> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus.</p>
+    </div>
+  
+  </div>
+  <!-- /Container -->
+
+</div>
+<!-- /Block -->

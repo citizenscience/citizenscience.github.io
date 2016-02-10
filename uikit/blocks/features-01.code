@@ -1,0 +1,114 @@
+<!-- Features Block -->
+<div id="features" class="block bg-white border-b" data-edit="false">
+
+  <!-- Container -->
+  <div class="container container-main auto-invert pady-block-lg">
+  
+    <!-- Title -->
+    <div class="section-title auto-invert line-b align-center">
+      <h2 class="font-cond-b fg-text-d lts-sm" contenteditable="false">The Best Parts</h2>
+      <p class="font-cond-l lts-sm" contenteditable="false">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+    </div>
+    <!-- /Title -->
+    
+    <!-- Tabled Row -->
+    <div class="row row-table">
+    
+      <!-- Col -->
+      <div class="col-sm-4 v-middle">
+      
+        <!-- Feature -->
+        <div class="hfeature align-right mgb-60">
+          <div class="media-cell">
+            <i class="icon-round icon-outline lc-desktop fg-text-d" data-edit="false" data-editor="icon"></i>
+          </div>
+          <div class="text-cell">
+            <h4 class="case-u font-cond-b lts-sm mgb-sm fg-text-d" contenteditable="false">Clean Code</h4>
+            <p class="font-cond-l fs-90 fg-text" contenteditable="false">Duis aute irure dolor in reprehenderit<br/>voluptate velit esse cillum dolore.</p>
+          </div>
+        </div>
+        <!-- /Feature -->
+        
+        <!-- Feature -->
+        <div class="hfeature align-right mgb-60">
+          <div class="media-cell">
+            <i class="icon-round icon-outline lc-food fg-text-d" data-edit="false" data-editor="icon"></i>
+          </div>
+          <div class="text-cell">
+            <h4 class="case-u font-cond-b lts-sm mgb-sm fg-text-d" contenteditable="false">Sass files included</h4>
+            <p class="font-cond-l fs-90 fg-text" contenteditable="false">Duis aute irure dolor in reprehenderit<br/>voluptate velit esse cillum dolore.</p>
+          </div>
+        </div>
+        <!-- /Feature -->
+        
+        <!-- Feature -->
+        <div class="hfeature align-right mgb-60-xs">
+          <div class="media-cell">
+            <i class="icon-round icon-outline lc-paper-plane fg-text-d" data-edit="false" data-editor="icon"></i>
+          </div>
+          <div class="text-cell">
+            <h4 class="case-u font-cond-b lts-sm mgb-sm fg-text-d" contenteditable="false">Responsive Slider</h4>
+            <p class="font-cond-l fs-90 fg-text" contenteditable="false">Duis aute irure dolor in reprehenderit<br/>voluptate velit esse cillum dolore.</p>
+          </div>
+        </div>
+        <!-- /Feature -->
+
+      </div>
+      <!-- /Col -->
+      
+      <!-- Col -->
+      <div class="col-sm-4 align-center mgb-60-xs v-middle">
+      
+        <img style="max-width:270px" src="images/iphone.png" class="lyt-iblock" alt="" title="App Image" data-edit="false" data-editor="field" data-field="src[Image Path]; style[Image Style]; title[Image Title]; alt[Image Alternate Text]"/>
+        
+      </div>
+      <!-- /Col -->
+      
+      <!-- Col -->
+      <div class="col-sm-4 v-middle">
+        <!-- Feature -->
+        <div class="hfeature mgb-60">
+          <div class="media-cell">
+            <i class="icon-round icon-outline lc-wallet fg-text-d" data-edit="false" data-editor="icon"></i>
+          </div>
+          <div class="text-cell">
+            <h4 class="case-u font-cond-b lts-sm mgb-sm fg-text-d" contenteditable="false">Page Builder</h4>
+            <p class="font-cond-l fs-90 fg-text" contenteditable="false">Duis aute irure dolor in reprehenderit<br/>voluptate velit esse cillum dolore.</p>
+          </div>
+        </div>
+        <!-- /Feature -->
+        
+        <!-- Feature -->
+        <div class="hfeature mgb-60">
+          <div class="media-cell">
+            <i class="icon-round icon-outline lc-trash fg-text-d" data-edit="false" data-editor="icon"></i>
+          </div>
+          <div class="text-cell">
+            <h4 class="case-u font-cond-b lts-sm mgb-sm fg-text-d" contenteditable="false">Icon Selector</h4>
+            <p class="font-cond-l fs-90 fg-text" contenteditable="false">Duis aute irure dolor in reprehenderit<br/>voluptate velit esse cillum dolore.</p>
+          </div>
+        </div>
+        <!-- /Feature -->
+        
+        <!-- Feature -->
+        <div class="hfeature">
+          <div class="media-cell">
+            <i class="icon-round icon-outline lc-fire fg-text-d" data-edit="false" data-editor="icon"></i>
+          </div>
+          <div class="text-cell">
+            <h4 class="case-u font-cond-b lts-sm mgb-sm fg-text-d" contenteditable="false">Background Changer</h4>
+            <p class="font-cond-l fs-90 fg-text" contenteditable="false">Duis aute irure dolor in reprehenderit<br/>voluptate velit esse cillum dolore.</p>
+          </div>
+        </div>
+        <!-- /Feature -->
+      </div>
+      <!-- /Col -->
+      
+    </div>
+    <!-- /Row -->
+    
+  </div>
+  <!-- /Container -->
+
+</div>
+<!-- /Features Block -->

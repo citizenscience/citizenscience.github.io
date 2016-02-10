@@ -1,0 +1,381 @@
+/* SETUP
+------------------------------------ */
+body, html {
+  padding:0;
+  height:100%;
+  margin:0;
+}
+
+.page-wrapper {
+  height:100%;
+  margin-left:auto;
+  margin-right: auto;
+  position:relative;
+}
+
+.page-loader {
+  position:fixed;
+  z-index: $z-apex;
+  width:100%;
+  height:100%;
+}
+
+.drop-preloader {
+  position: relative;
+  min-height:300px;
+  border:1px dashed #ff9800;
+}
+
+
+/* GRID
+------------------------------------ */
+.cols-4 {
+  > * {
+    width:25%;
+  }
+  
+  > .title, .divider {
+    width:100%;
+  }
+}
+.cols-5 {
+  > * {
+    width:20%;
+  }
+  
+  > .title, .divider {
+    width:100%;
+  }
+}
+.col-eq {
+  float:left;
+}
+ul.row {
+  list-style:none;
+  padding:0;
+  line-height:1em;
+}
+.space-cols {
+  > [class^="col-"] {
+    margin-bottom: 30px;
+  }
+  
+  &.gutter-0 > [class^="col-"]{
+    margin-bottom:0;
+  }
+  
+  &.gutter-4 > [class^="col-"]{
+    margin-bottom:4px;
+  }
+  
+  &.gutter-2 > [class^="col-"]{
+    margin-bottom:2px;
+  }
+  
+  &.gutter-10 > [class^="col-"]{
+    margin-bottom:10px;
+  }
+  
+  &.gutter-20 > [class^="col-"]{
+    margin-bottom:20px;
+  }
+  
+  &.gutter-60 > [class^="col-"]{
+    margin-bottom:60px;
+  }
+}
+
+.gutter-0.row {
+  margin-right: -0px;
+  margin-left: -0px;
+}
+.gutter-0 > [class^="col-"], .gutter-0 > [class^=" col-"] {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.gutter-4.row {
+  margin-right: -2px;
+  margin-left: -2px;
+}
+.gutter-4 > [class^="col-"], .gutter-4 > [class^=" col-"] {
+  padding-right: 2px;
+  padding-left: 2px;
+}
+.gutter-2.row {
+  margin-right: -1px;
+  margin-left: -1px;
+}
+.gutter-2 > [class^="col-"], .gutter-2 > [class^=" col-"] {
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
+.gutter-10.row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.gutter-10 > [class^="col-"], .gutter-10 > [class^=" col-"] {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.gutter-20.row {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+.gutter-20 > [class^="col-"], .gutter-20 > [class^=" col-"] {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.gutter-60.container {
+  
+}
+.gutter-60.row {
+  margin-right: -30px;
+  margin-left: -30px;
+}
+.gutter-60 > [class^="col-"], .gutter-60 > [class^=" col-"] {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/* GRID LIST
+------------------------------------ */
+.grid-list {
+  list-style:none;
+  padding:0;
+  margin:0;
+  
+  > li {
+    display:block;
+  }
+}
+/* ROW TABLE
+------------------------------------ */
+@media (min-width:768px) {
+  .row.row-table {
+    display:table;
+    table-layout:fixed;
+    width:100%;
+    margin:0;
+    
+    > [class*="col-"] {
+      display:table-cell;
+      height:100%;
+      float:none;
+    }
+    
+    .col-vtop {
+      vertical-align:top;
+    }
+    
+    .col-vmid {
+      vertical-align:middle;
+    }
+    
+    .col-vbot {
+      vertical-align:bottom;
+    }
+    
+    > div:first-child,  {
+      padding-left:0;
+    }
+    
+    > div:last-child {
+      padding-right:0;
+    }
+  }
+}
+
+/* HASH CELLS
+------------------------------------ */
+.hash-cells {
+  display:table;
+  list-style:none;
+  padding:0;
+  margin:0;
+  width: 100%;
+  
+  > li {
+    display: table-cell;
+    vertical-align: top;
+    border-right:1px solid rgba(#000, 0.2);
+  }
+  
+  &.pad-y > li {
+    padding-top:2em;
+    padding-bottom:2em;
+  }
+}
+
+.hash-cells.inverse, .inverse-all .hash-cells {
+  > li {
+    border-right:1px solid rgba(#fff, 0.1);
+  }
+}
+
+.hash-cells.cols-3 {
+  > li {
+    width:33.3333%;
+  }
+  > li:nth-child(3n) {
+    border-right: none;
+  }
+  
+  @media (max-width:767px) {
+    display:block;
+    width:auto;
+    > li {
+      display: block;
+      width:auto;
+      border-right:none;
+    }
+  }
+}
+
+.hash-cells.cols-4 {
+  > li {
+    width:25%;
+  }
+  > li:nth-child(4n) {
+    border-right: none;
+  }
+}
+
+/* HASH LIST
+------------------------------------ */
+.hash-list {
+  display:block;
+  padding:0;
+  margin:0 auto;
+  
+  > li {
+    display:block;
+    float: left;
+    border-right:1px solid rgba(#000, 0.2);
+    border-bottom: 1px solid rgba(#000, 0.2);
+  }
+}
+
+.hash-list.cols-2 {
+  > li {
+    width:50%;
+    &:nth-child(2n) {
+      border-right:none;
+    }
+    &:nth-last-child(-n+2) {
+      border-bottom: none;
+    }
+  }
+}
+
+@media (min-width:768px) {
+  .hash-list.cols-3 {
+    > li {
+      width:33.3333%;
+      &:nth-child(3n) {
+        border-right:none;
+      }
+      &:nth-last-child(-n+3) {
+        border-bottom: none;
+      }
+    }
+  } 
+
+  .hash-list.cols-4 {
+    > li {
+      width:25%;
+      &:nth-child(4n) {
+        border-right:none;
+      }
+      &:nth-last-child(-n+4) {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+@media (max-width:767px) {
+  .hash-list.cols-1-xs {
+    > li {
+      width:100%;
+      border-right:none;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  } 
+}
+
+@media (max-width:767px) {
+  .hash-list.cols-2-xs {
+    > li {
+      width:50%;
+      &:nth-child(2n) {
+        border-right:none;
+      }
+      &:nth-last-child(-n+2) {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+
+
+.hash-list.inverse, .inverse-all .hash-list.auto-invert, .inverse-all .auto-invert .hash-list {
+  > li {
+    border-color: rgba(#fff, 0.1);
+  }
+}
+
+.demo-list {
+  $pad: 2px;
+  width:100%;
+  height:100%;
+  margin:0;
+  padding: $pad/2;
+  list-style:none;
+  
+  li {
+    display:block;
+    float:left;
+    width:50%;
+    height:50%;
+    padding: $pad;
+  }
+  
+  a {
+    display:block;
+    width:100%;
+    height:100%;
+    position:relative;
+    @include vendorize(background-size, "cover !important");
+    
+    > div {
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      color: #fff;
+      text-align: center;
+      opacity:0.8;
+      transition:all 0.5s;
+    }
+    i {
+      margin-bottom: 30px;
+      display:inline-block;
+      font-size:60px;
+    }
+    span {
+      display:block;
+    }
+    
+    &:hover > div {
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+<!-- Services Block -->
+<div id="services" class="block white-bg border-b" data-edit="false">
+
+  <!-- Container -->
+  <div class="container pady-block-lg auto-invert">
+  
+    <!-- Title -->
+    <div class="section-title auto-invert line-b align-center">
+      <h2 class="font-cond-b fg-text-d lts-sm" contenteditable="false">Services We Offer</h2>
+      <p class="font-cond-l lts-sm fg-text" contenteditable="false">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+    </div>
+    <!-- /Title -->
+
+    <!-- Row -->
+    <div class="row">
+      
+      <!-- Hash List -->
+      <ul class="hash-list cols-3 cols-2-xs padx-30-all pady-40-all pad-20-all-xs clearfix align-center">
+        <li>
+          <i class="icon fg-text-l et-desktop fs-300 mgb-20" data-edit="false" data-editor="icon"></i>
+          <h5 class="fg-text-d case-u lts-md font-cond-b" contenteditable="false">alpha Feature</h5>
+          <p contenteditable="false">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+        </li>
+        <li>
+          <i class="icon fg-text-l et-camera fs-300 mgb-20" data-edit="false" data-editor="icon"></i>
+          <h5 class="fg-text-d case-u lts-md font-cond-b" contenteditable="false">beta feature</h5>
+          <p contenteditable="false">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+        </li>
+        <li>
+          <i class="icon fg-text-l et-layers fs-300 mgb-20" data-edit="false" data-editor="icon"></i>
+          <h5 class="fg-text-d case-u lts-md font-cond-b" contenteditable="false">gamma feature</h5>
+          <p contenteditable="false">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+        </li>
+        <li>
+          <i class="icon fg-text-l et-printer fs-300 mgb-20" data-edit="false" data-editor="icon"></i>
+          <h5 class="fg-text-d case-u lts-md font-cond-b" contenteditable="false">epsilon feature</h5>
+          <p contenteditable="false">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+        </li>
+        <li>
+          <i class="icon fg-text-l et-global fs-300 mgb-20" data-edit="false" data-editor="icon"></i>
+          <h5 class="fg-text-d case-u lts-md font-cond-b" contenteditable="false">delta feature</h5>
+          <p contenteditable="false">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+        </li>
+        <li>
+          <i class="icon fg-text-l et-chat fs-300 mgb-20" data-edit="false" data-editor="icon"></i>
+          <h5 class="fg-text-d case-u lts-md font-cond-b" contenteditable="false">zeta feature</h5>
+          <p contenteditable="false">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+        </li>
+      </ul>
+      <!-- /Hash List -->
+      
+    </div>
+    <!-- /Row -->
+
+  </div>
+  <!-- /Container -->
+
+</div>
+<!-- /Services Block -->

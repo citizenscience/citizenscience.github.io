@@ -1,0 +1,70 @@
+// POWER
+// ----------------------------------
+@function pow ($x, $n) {
+  $ret: 1;
+  
+  @if $n > 0 {
+    @for $i from 1 through $n {
+      $ret: $ret * $x;
+    }
+  } @else if $n < 0 {
+    @for $i from $n to 0 {
+      $ret: $ret / $x;
+    }
+  }
+  @return $ret;
+}
+// MAP SEEK
+// ----------------------------------
+@function map-seek($map, $keys) {
+  $key: nth($keys, 1);
+  $len: length($keys);
+  $val: map-get($map, $key);
+  
+  @if($len > 1) {
+    $rest: ();
+    
+    @for $i from 2 through $len {
+      $rest: append($rest, nth($keys, $i));
+    }
+    
+    @return map-seek($val, $rest);
+  } @else {
+    @return $val;
+  }
+}
+
+// MAP COLLECT
+// ----------------------------------
+@function map-collect($maps...) {
+  $collection: ();
+  @each $map in $maps {
+    $collection: map-merge($collection, $map);
+  }
+  @return $collection;
+}
+
+// COLORS
+// ----------------------
+@function tint($color, $pc){
+  @return mix(white, $color, $pc);
+}
+
+@function shade($color, $pc){
+  @return mix(black, $color, $pc);
+}
+
+// MATH
+// ------------------------
+@function cmg($h1, $h2) {
+  @return floor(($h1 - $h2) /2);
+}
+@function strip-units($number) {
+  @return $number / ($number * 0 + 1);
+}
+
+// MISC
+// ------------------------
+@function px-to-em($px, $font-size) {
+  @return #{strip-units($px / $font-size)}em;
+}

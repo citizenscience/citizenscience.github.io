@@ -1,0 +1,52 @@
+<!-- Header Block -->
+<header id="" class="header-main block intro intro-vform bg-primary inverse-all" data-edit="false">
+
+  <!-- Container -->
+  <div class="container row-table-container container-main">
+
+    <div class="row row-table">
+    
+      <div class="col-sm-8 text-col align-center-xs auto-invert">
+      
+        <!-- Title -->
+        <div class="section-title mgb-30 auto-invert line-b align-center-xs">
+          <h4 class="font-cond-l fg-accent" contenteditable="false">Currency Trading For Dummies</h4>
+          <h1 class="font-cond-b fg-text-d fs-350" contenteditable="false">Get Started Buying<br/>& Selling Currencies.</h1>
+        </div>
+        <!-- /Title -->
+        
+        <p contenteditable="false" class="fg-text auto-invert font-cond-l fs-150">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+      </div>
+    
+      <div class="col-sm-4 form-col align-center">
+        <div class="vcard vcard-pad-md bg-white shadow-sm">
+          <div class="vcard-header bg-accent fg-white border-b ">
+            <h4 class="font-cond-l case-c fg-text-d fg-white" contenteditable="false">Start free trial</h4>
+          </div>
+          <div class="vcard-block" data-edit="false" data-editor="field">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="First Name" data-field="placeholder[First Name Placeholder]" />
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Last Name" data-field="placeholder[Last Name Placeholder]" />
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Email Address" data-field="placeholder[Email Text]" />
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Contact Number" data-field="placeholder[Email Text]" />
+              </div>
+              <button class="btn btn-inflate btn-sm btn-primary btn-block case-u font-cond-l" data-field="html[Button Text]">sign up now</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- /Container -->
+  
+</header>
+<!-- /Header Block -->

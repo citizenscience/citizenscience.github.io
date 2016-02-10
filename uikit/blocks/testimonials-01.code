@@ -1,0 +1,55 @@
+<!-- Reviews Block -->
+<div id="reviews" class="block split-block bg-black-5" data-edit="false">
+
+  <!-- Left Block -->
+  <div class="sblock sblock-left bg-cover hidden-xs" style="background:url(images/covers/cover8.jpg)center center" data-edit="false" data-editor="field" data-field="style[Background Style]">
+  </div>
+  <!-- /Left Block -->
+  
+  <!-- Right Block -->
+  <div class="sblock sblock-right padx-50 pady-100">
+  
+    <!-- Slider -->
+    <div class="bx-pager-round bx-pager-below auto-invert">
+    
+      <ul class="bxslider" data-call="bxslider" data-edit="false" data-editor="bxslider" data-bxinit="false" data-options="{controls:false, slides:1}">
+        <li>
+          <!-- Testimonial -->
+          <div class="align-center">
+            <i class="icon ti-quote-left fg-accent fs-400" data-edit="false" data-editor="icon"></i>
+            <h2 contenteditable="false" class="font-cond-mb fg-text-d mgb-5">Martha Stewart</h2>
+            <h5 contenteditable="false" class="font-cond fg-text-l lts-sm case-u fs-80">Business Woman - New York</h5>
+            <p contenteditable="false" class="font-cond-l fg-text no-mg fs-130">"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem."</p>
+          </div>
+           <!-- /Testimonial -->
+        </li>
+        <li>
+          <!-- Testimonial -->
+          <div class="align-center">
+            <i class="icon ti-quote-left fg-accent fs-400" data-edit="false" data-editor="icon"></i>
+            <h2 contenteditable="false" class="font-cond-mb fg-text-d mgb-5">Sean Carter</h2>
+            <h5 contenteditable="false" class="font-cond fg-text-l lts-sm case-u fs-80">Song Writer - Miami Florida</h5>
+            <p contenteditable="false" class="font-cond-l fg-text no-mg fs-130">"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem."</p>
+          </div>
+           <!-- /Testimonial -->
+        </li>
+        <li>
+          <!-- Testimonial -->
+          <div class="align-center">
+            <i class="icon ti-quote-left fg-accent fs-400" data-edit="false" data-editor="icon"></i>
+            <h2 contenteditable="false" class="font-cond-mb fg-text-d mgb-5">Jack Stunner</h2>
+            <h5 contenteditable="false" class="font-cond fg-text-l lts-sm case-u fs-80">Brain Surgeon - Los Angeles</h5>
+            <p contenteditable="false" class="font-cond-l fg-text no-mg fs-130">"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem."</p>
+          </div>
+           <!-- /Testimonial -->
+        </li>
+      </ul>
+      
+    </div>
+    <!-- /Slider -->
+    
+  </div>
+  <!-- /Right Block -->
+
+</div>
+<!-- /Reviews Block -->

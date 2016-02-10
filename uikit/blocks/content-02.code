@@ -1,0 +1,21 @@
+<!-- Block -->
+<div id="" class="block split-block border-b border-t" data-edit="false">
+
+  <!-- Left Block -->
+  <div class="sblock sblock-left bg-cover hidden-xs" style="background:url(images/covers/cover8.jpg)center center" data-edit="false" data-editor="field" data-field="style[Background Style]">
+  
+  </div>
+  <!-- /Left Block -->
+  
+  <!-- Right Block -->
+  <div class="sblock sblock-right padx-50 pady-100 align-center auto-invert">
+  
+    <i class="fs-400 et-global mgb-30 fg-accent" data-edit="false" data-editor="icon"></i>
+    <h2 contenteditable="false" class="case-u font-cond-b fg-text-d lts-sm">The road to<br/>success is always<br/>long & rough.</h2>
+    <p contenteditable="false" class="lts-sm fg-text"> Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
+    <a class="btn btn-sm btn-primary btn-inflate case-u lts-md auto-invert" href="#" data-edit="false" data-editor="field" data-field="html[Button Text]; href[Button url]">learn more</a>
+  </div>
+  <!-- /Right Block -->
+
+</div>
+<!-- /Block -->

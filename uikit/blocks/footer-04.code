@@ -1,0 +1,51 @@
+<!-- Block -->
+<div id="alt-footer" class="block bg-primary-d inverse-all">
+
+  <!-- Container -->
+  <div class="container auto-invert pady-60">
+  
+    <!-- Row -->
+    <div class="row row-table bdb-all pady-30-all-xs align-center-xs">
+    
+      <!-- Col -->
+      <div class="col-sm-3 align-center col-vmid bd-b-xs">
+        <a class="fg-text-d font-cond-b lts-md fs-250 lyt-block" href="#home" data-edit="false" data-editor="field" data-field="href[Brand Link]">
+          <i class="et-target fg-accent mgb-10 lyt-block" data-field="class[Brand Icon Class,icon]"></i>
+          <span data-field="html[Brand Text]">TORUS</span>
+        </a>
+      </div>
+      <!-- Col -->
+      
+      <!-- Col -->
+      <div class="col-sm-6 col-vtop bd-b-xs">
+        <h5 class="fg-text-d font-cond lts-md mgb-10 case-u" contenteditable="false">some information</h5>
+        <p class="fg-text-l font-cond-l" contenteditable="false">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+        <ul id="social-links" class="hlinks hlinks-icons  color-icons-bg-hovered s-200" data-icon-title="true" data-menu-attr="class='btn-outline-default auto-invert' data-editor='menu' data-edit='true'">
+          <li><a href="#" class="btn-outline-default auto-invert" data-edit="false" data-editor="menu"><i class="fa-twitter"></i></a></li>
+          <li><a href="#" class="btn-outline-default auto-invert" data-edit="false" data-editor="menu"><i class="fa-facebook"></i></a></li>
+          <li><a href="#" class="btn-outline-default auto-invert" data-edit="false" data-editor="menu"><i class="fa-google-plus"></i></a></li>
+          <li><a href="#" class="btn-outline-default auto-invert" data-edit="false" data-editor="menu"><i class="fa-youtube"></i></a></li>
+          <li><a href="#" class="btn-outline-default auto-invert" data-edit="false" data-editor="menu"><i class="fa-rss"></i></a></li>
+        </ul>
+        <a class="fg-red" href="#contact" data-hidden="true" data-editor="menu-new" data-menu="#social-links">+ New Link</a>
+      </div>
+      <!-- Col -->
+      
+      <!-- Col -->
+      <div class="col-sm-3 col-vtop">
+        <h5 class="fg-text-d font-cond lts-md mgb-20 case-u" contenteditable="false">Get Our Newsletter</h4>
+        <form class="form-controls-lg">
+          <input class="form-control mgb-15" placeholder="Enter Email Address"/>
+          <button class="btn btn-accent btn-block font-cond-l case-u lts-sm">subscribe</button>
+        </form>
+      </div>
+      <!-- Col -->
+    
+    </div>
+    <!-- /Row -->
+    
+  </div>
+  <!-- /Container -->
+
+</div>
+<!-- /Block -->

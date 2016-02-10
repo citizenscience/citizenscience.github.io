@@ -1,0 +1,24 @@
+// SKIN SETUP
+// ----------------------------------
+@function skin-color($val) {
+  @return map-get($skin, $val);
+}
+
+@mixin print-skin() {
+  @each $color, $val in $skin {
+    @if(type-of($val) != map) {
+      .fg-#{$color}, .fg-hov-#{$color}:hover, .fg-active-#{$color}.active   {
+        color: $val;
+      }
+      
+      .bdc-#{$color}, .bdc-hov-#{$color}:hover, .bdc-active-#{$color}.active, .bdc-after-#{$color}:after {
+        border-color: $val;
+      }
+      
+      .bg-#{$color}, .bg-hov-#{$color}:hover, .bg-active-#{$color}.active, .btn-#{$color} {
+        background-color: $val;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,112 @@
+/* HMEDIA
+------------------------------------ */
+.hmedia, .hmedia-list > li {
+  display:table;
+  width:100%;
+  
+  > div {
+    display:table-cell;
+    height:100%;
+    vertical-align:middle;
+    
+    &.v-top {
+      vertical-align: top;
+    }
+    &.v-bottom {
+      vertical-align: bottom;
+    }
+  }
+
+  .text-cell {
+    width:100%;
+    padding:0 15px;
+    
+    .title, .text-block {
+      display: block;
+    }
+  }
+}
+
+.hmedia-list {
+  list-style: none;
+  margin-left:0;
+  padding-left:0;
+  
+  > li {
+    padding:15px 0;
+  }
+}
+
+/* HFEATURE
+------------------------------------ */
+.hfeature {
+  position: relative;
+  padding-left:5em;
+  
+  &:before, &:after {
+    content:"";
+    display:table;
+  }
+  
+  .media-cell {
+    position:absolute;
+    top:0;
+    left:0;
+    width:2.5em;
+    font-size:2em;
+    
+    .icon-round, .icon-square {
+      font-size:inherit;
+    }
+  }
+  
+  .text-cell {
+    padding:0 0 0 1em;
+
+    h4 {
+      font-size:1.3em;
+      display: block;
+      margin:0;
+      line-height:1em;
+      
+      &.case-u {
+        font-size: 1.1em;
+      }
+    }
+    
+    p {
+      margin:0;
+      margin-top: 0.5em;
+    }
+  }
+}
+
+.hfeature.align-right {
+  padding:0 5em 0 0;
+  
+  .media-cell {
+    left:auto;
+    right:0;
+  }
+  .text-cell {
+    padding:0 1em 0 0;
+  }
+}
+
+@media (max-width:767px) {
+  .hfeature, .hfeature.align-right {
+    padding:0;
+    text-align: center;
+    
+    .media-cell {
+      position:static;
+      margin:0 auto 0.5em auto;
+    }
+    
+    .text-cell {
+      padding:0;
+    }
+  }
+}
+
+

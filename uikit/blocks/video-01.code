@@ -1,0 +1,14 @@
+<!-- Video -->
+<div id="" class="block bg-primary inverse-all" data-edit="false">
+  <!-- Container -->
+  <div class="container container-main pad-block-lg">
+    <div class="valigner auto-invert align-center">
+      <div class="valign-middle">
+        <a class="lyt-iblock lh-100 fs-600 mgb-30 fg-text-d swipebox-video" href="https://www.youtube.com/watch?v=WyHv2WqkPCQ" data-swipebox="true" data-edit="false" data-editor="field" data-field="href[Video URL]"><i class="fa-play-circle" data-field="class[Icon Class,icon]"></i></a>
+        <a class="lyt-block case-u font-cond-l lts-lg fg-text" href="https://www.youtube.com/watch?v=WyHv2WqkPCQ" data-swipebox="true" data-edit="false" data-editor="field" data-field="href[Video URL]"><h5 data-field="html[Text]">watch a short video</h5></a>
+      </div>
+    </div>
+  </div>
+  <!-- /Container -->
+</div>
+<!-- /Video -->

@@ -1,0 +1,40 @@
+<!-- Block -->
+<div id="" class="block bg-white border-b" data-edit="false">
+
+  <!-- Container -->
+  <div class="container pady-block-lg">
+  
+    <!-- Row -->
+    <div class="row row-table">
+    
+      <!-- Col -->
+      <div class="col-sm-6 align-center v-middle mgb-30-xs">
+      
+        <img src="images/woman-laptop.png" class="lyt-iblock max-w"  alt="" title="image" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]"/>
+      
+      </div>
+      <!-- /Col -->
+      
+      <!-- Col -->
+      <div class="col-sm-6 v-middle align-center-xs">
+      
+        <div class="mgb-30 auto-invert line-b align-center-xs">
+          <h4 class="font-cond-l fg-accent lts-md mgb-5" contenteditable="false">Enjoy Limitless Access To</h4>
+          <h2 class="font-cond-b fg-text-d lts-md" contenteditable="false">Netflix Original Shows</h2>
+        </div>
+
+        <p contenteditable="false">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        
+        <a class="btn btn-sm btn-primary btn-inflate case-u lts-md auto-invert" href="#" data-scroll="true" data-edit="false" data-editor="field" data-field="href[Button url]"><span data-field="html[Button Text]">learn more</span><i class="icon-right ti-angle-right" data-field="class[Icon Class,icon]"></i></a>
+     
+      </div>
+      <!-- /Col -->
+    
+    </div>
+    <!-- /Row -->
+  
+  </div>
+  <!-- /Container -->
+
+</div>
+<!-- /Block -->

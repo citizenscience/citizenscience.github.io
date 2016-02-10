@@ -1,0 +1,13 @@
+<!-- Header -->
+<header id="" class="block cover-6 bg-fixed overlay-black-70pc inverse-all" data-edit="false">
+
+  <!-- Container -->
+  <div class="container container-main align-center auto-invert pady-150 pady-100-xs">
+    <h1 contenteditable="false" class="case-u font-reg-l fs-400 fs-300-xs fg-text-d lts-sm">the masters of<br/>awesome web design</h1>
+    <p contenteditable="false" class="case-u font-cond lts-xl fg-text mgb-50">we are a creative studio from london uk</p>
+    <a class="btn btn-cta btn-accent case-u lts-sm" href="#about" data-scroll="true" data-edit="false" data-editor="field" data-field="href[Button Link]">get started</a>
+  </div>
+  <!-- /Container -->
+  
+</header>
+<!-- /Header -->

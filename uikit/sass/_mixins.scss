@@ -1,0 +1,128 @@
+// VENDORIZE
+// ----------------------------------
+$prefixes: ("-webkit-","-moz-", "-o-", "");
+
+@mixin vendorize($property, $value) { 
+	@each $prefix in $prefixes {
+		#{$prefix}#{$property}: #{$value};
+	}
+}
+
+// ICONS
+// ----------------------------------
+@mixin fixed-icon($type, $diameter) {
+
+  @if $type == 'square' {
+    display:inline-block;
+    text-align: center;
+    line-height: $diameter;
+    height: $diameter;
+    width: $diameter;
+    font-size:floor($diameter * 0.4);
+    @include vendorize(box-sizing, content-box);
+	} 
+  @elseif $type == 'round' {
+    display:inline-block;
+    text-align: center;
+    line-height: $diameter;
+    height: $diameter;
+    width: $diameter;
+    font-size:floor($diameter * 0.4);
+    @include vendorize(box-sizing, content-box);
+    @include vendorize(border-radius, "50%");
+	} 
+  @elseif $type == 'reset' {
+    line-height: $diameter;
+    height: $diameter;
+    width: $diameter;
+    font-size:floor($diameter * 0.4);
+	} 
+}
+
+@mixin em-icon($type, $r, $d) {
+  $fs: #{$d/$r}em;
+  display:inline-block;
+  text-align: center;
+  line-height:$r;
+  height: $r;
+  width: $r;
+  font-size: $fs;
+  @include vendorize(box-sizing, content-box);
+
+  @if $type == 'round' {
+    @include vendorize(border-radius, "50%");
+	} 
+  
+  @if $type == 'reset' {
+    font-size: $fs;
+	} 
+}
+
+// ARROWS
+// ----------------------------------------
+@mixin arrow($dir, $w, $h, $color) { 
+	display:block;
+	width: 0;
+	height:0;
+	background: none;
+	border: none;
+	
+	@if $dir == 'up' {
+		border-bottom: $h solid $color;
+		border-right: ($w / 2) solid transparent;
+		border-left: ($w / 2) solid transparent;
+	
+	} 
+	@elseif $dir == 'down' {
+		border-top: $h solid $color;
+		border-right: ($w / 2) solid transparent;
+		border-left: ($w / 2) solid transparent;
+	}
+	@elseif $dir == 'right' {
+		border-left: $w solid $color;
+		border-top: ($h / 2) solid transparent;
+		border-bottom: ($h / 2) solid transparent;
+	}
+	@elseif $dir == 'left' {
+		border-right: $w solid $color;
+		border-top: ($h / 2) solid transparent;
+		border-bottom: ($h / 2) solid transparent;
+	}
+	@elseif $dir == 'top-right' {
+		border-right: $w solid $color;
+		border-bottom: $h solid transparent;
+	}
+	@elseif $dir == 'top-left' {
+		border-left: $w solid $color;
+		border-bottom: $h solid transparent;
+	}
+	@elseif $dir == 'bottom-right' {
+		border-right: $w solid $color;
+		border-top: $h solid transparent;
+	}
+	@elseif $dir == 'bottom-left' {
+		border-left: $w solid $color;
+		border-top: $h solid transparent;
+	}
+}
+
+// KEYFRAMES
+// -----------------------------------------
+@mixin keyframes($animationName)
+{
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationName}  {
+        @content;
+    }
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+    @-ms-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
