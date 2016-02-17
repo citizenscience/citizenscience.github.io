@@ -1,9 +1,0 @@
-<!-- Block -->
-<footer id="" class="block bg-primary inverse-all" data-edit="false">
-  <!-- Container -->
-  <div class="container auto-invert pady-20 align-center">
-    <span class="font-cond-l lts-sm fs-80 fg-text" contenteditable="false" data-cmenu="font">&copy; 2015 TORUS Bootstrap Theme By Arnique Studio.</span>
-  </div>
-  <!-- /Container -->
-</footer>
-<!-- /Block -->
